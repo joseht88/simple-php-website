@@ -1,5 +1,5 @@
 pipeline {
-    agenr any
+    agent any
 
     stages {
         stage('Preparacion'){
