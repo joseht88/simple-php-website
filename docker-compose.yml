@@ -2,6 +2,6 @@ services:
    appphp:
     image: simple-php-website
     container_name: api-php
-    restart: always
+    #restart: always
     ports:
       - 80:80
