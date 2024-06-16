@@ -38,7 +38,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker build .'
+                sh 'docker build -t simple-php-website .'
             }
         }
        
