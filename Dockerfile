@@ -3,7 +3,7 @@ FROM php:7.4-apache
 RUN apt-get update
 RUN apt-get install --yes --force-yes cron g++ gettext libicu-dev openssl libc-client-dev libkrb5-dev libxml2-dev libfreetype6-dev libgd-dev libmcrypt-dev bzip2 libbz2-dev libtidy-dev libcurl4-openssl-dev libz-dev libmemcached-dev libxslt-dev
 
-RUN apk add -U tzdata
+RUN apt-get install -y tzdata
 ENV TZ America/Lima
 RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/localtime
 RUN echo "${TZ}" > /etc/timezone
