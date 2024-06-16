@@ -25,14 +25,14 @@
         </testsuite-->
     </testsuites>
 
-    <filter>
+    <!--filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src</directory>
             <exclude>
                 <directory>src/Migration</directory>
             </exclude>
         </whitelist>
-    </filter>
+    </filter-->
 
     <coverage cacheDirectory=".phpunit.cache/code-coverage"
               processUncoveredFiles="true">
