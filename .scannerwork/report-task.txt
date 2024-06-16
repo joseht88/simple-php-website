@@ -1,0 +1,6 @@
+projectKey=simple-php-website
+serverUrl=http://ec2-54-174-123-143.compute-1.amazonaws.com:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://ec2-54-174-123-143.compute-1.amazonaws.com:9000/dashboard?id=simple-php-website
+ceTaskId=f0910c06-86c3-4309-b43e-70e622c55b16
+ceTaskUrl=http://ec2-54-174-123-143.compute-1.amazonaws.com:9000/api/ce/task?id=f0910c06-86c3-4309-b43e-70e622c55b16
