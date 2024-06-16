@@ -35,15 +35,12 @@ pipeline {
         //        }
         //    }
         //}
+        
         stage('Docker Build') {
             steps {
                 sh 'docker build -t simple/simple-php-website:latest .'
             }
         }
-        stage('Deployment') {
-             steps {
-                
-             }
-        }
+       
     }
 }
