@@ -16,5 +16,5 @@ RUN docker-php-ext-enable mysqli
 RUN docker-php-ext-configure gd --with-freetype=/usr --with-jpeg=/usr
 RUN docker-php-ext-install gd
 
-COPY ./ /var/www/html/
+COPY . /var/www/html/
 RUN chmod -R a+r /var/www/html
