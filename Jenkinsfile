@@ -44,7 +44,6 @@ pipeline {
 
          stage('Deploy php') {
             steps {
-                sh 'docker run simple-php-website'
                 sh 'docker compose up -d'
             }
         }
