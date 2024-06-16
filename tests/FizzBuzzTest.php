@@ -41,6 +41,7 @@ class FizzBuzzTest extends TestCase {
     }
     /**
      *  @dataProvider casosDeUso
+     *  @covers App\test\FizzBuzzTest
     */
     public function testFizzBuzz($numeroATestear, $resultadoEsperado){
         $fizzBuzz = new FizzBuzz();
